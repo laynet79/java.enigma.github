@@ -130,6 +130,7 @@ public class EnigmaView extends JPanel {
 		add(scrollPane);
 		
 		JTextArea inputTxt = new JTextArea();
+		inputTxt.setLineWrap(true);
 		scrollPane.setViewportView(inputTxt);
 		
 		JScrollPane scrollPane_1 = new JScrollPane();
@@ -137,6 +138,7 @@ public class EnigmaView extends JPanel {
 		add(scrollPane_1);
 		
 		JTextArea outputTxt = new JTextArea();
+		outputTxt.setLineWrap(true);
 		scrollPane_1.setViewportView(outputTxt);
 		
 		JLabel lblInput = new JLabel("INPUT");
